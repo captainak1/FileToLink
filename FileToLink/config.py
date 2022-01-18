@@ -26,8 +26,8 @@ class Config:
     Buffer_Size = 512 * 1024  # For Quart
     Pre_Dl = 3  # How many parts to download from telegram before client request them
     Separate_Time = 4  # (seconds)  wait time between messages if user send more than one
-    Sleep_Threshold = 60  # (Seconds) sleep threshold for flood wait exceptions
-    Max_Fast_Processes = 1  # How many links user can update them to fast links at the same time
+    Sleep_Threshold = 10  # (Seconds) sleep threshold for flood wait exceptions
+    Max_Fast_Processes = 8  # How many links user can update them to fast links at the same time
 
 
 class Strings:
